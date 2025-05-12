@@ -86,7 +86,13 @@ body {
 
 @layer base {
   html {
-    font-size: 125%; /* Increase base font size to scale all rem units */
+    /* Default font size for mobile */
+    font-size: 100%; 
+  }
+  @media (min-width: 768px) { /* md breakpoint (768px) and up */
+    html {
+      font-size: 125%; /* Increase base font size for desktop */
+    }
   }
   * {
     @apply border-border;
