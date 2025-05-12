@@ -469,34 +469,40 @@ export default function LandingPage() {
                   <h3 className="text-2xl font-bold text-slate-200">Full Access</h3>
                   <p className="text-slate-400">Complete protection for all instruments</p>
                 </div>
-                            <div className="mt-4 flex items-baseline text-3xl font-bold text-slate-200">
-              <span className="text-xl font-normal text-slate-500 line-through mr-2">$10.97</span>
-              $2.97
-              <span className="ml-1 text-sm font-medium text-slate-400">/month</span>
-            </div>
-                </div>
-                <p className="mt-2 text-sm text-purple-400 italic">Cheaper than a coffee!</p>
-                <ul className="mt-6 space-y-2 text-sm">
-                  <li className="flex items-center">
-                    <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">Access to ALL instruments</span>
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">Advanced position sizing</span>
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">Complete risk management</span>
-                  </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">Priority support</span>
-                  </li>
-                </ul>
-                <Button className="mt-8 bg-indigo-600 hover:bg-indigo-700">Get Full Access</Button>
-              </div>
-            </div>
+                            <div className="rounded-lg border-2 border-purple-600 bg-slate-900 p-6 shadow-xl relative">
+  <div className="absolute top-0 right-0 -mt-3 mr-3">
+    <div className="inline-flex items-center rounded-full border border-purple-800 bg-purple-600 px-3 py-1 text-xs font-semibold text-white">
+      Best Value
+    </div>
+  </div>
+  <h3 className="text-2xl font-bold text-purple-400">Full Access</h3>
+  {/* Corrected Price Display Div below */}
+  <div className="mt-4 flex items-baseline text-3xl font-bold text-slate-200">
+    <span className="text-xl font-normal text-slate-500 line-through mr-2">$10.97</span>
+    $2.97
+    <span className="ml-1 text-sm font-medium text-slate-400">/month</span>
+  </div>
+  <p className="mt-2 text-sm text-purple-400 italic">Cheaper than a coffee!</p>
+  <ul className="mt-6 space-y-2 text-sm">
+    <li className="flex items-center">
+      <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
+      <span className="text-slate-300">Access to ALL instruments</span>
+    </li>
+    <li className="flex items-center">
+      <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
+      <span className="text-slate-300">Advanced position sizing</span>
+    </li>
+    <li className="flex items-center">
+      <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
+      <span className="text-slate-300">Complete risk management</span>
+    </li>
+    <li className="flex items-center">
+      <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
+      <span className="text-slate-300">Priority support</span>
+    </li>
+  </ul>
+  <Button className="mt-8 w-full bg-indigo-600 hover:bg-indigo-700 text-white">Get Full Access</Button>
+</div>
           </div>
         </section>
 
