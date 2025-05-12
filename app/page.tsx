@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils"
 
 export default function LandingPage() {
   const [isScrolled, setIsScrolled] = useState(false)
-  const [activeTab, setActiveTab] = useState("how-it-works")
+  const [activeTab, setActiveTab] = useState("position")
 
   // Simple animation tracking
   const [animated, setAnimated] = useState({
@@ -172,7 +172,7 @@ export default function LandingPage() {
                 <div className="relative h-[400px] w-full overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
                   <div className="h-full w-full flex items-center justify-center">
                     <img
-                      src="/images/hero-main-image.png"
+                      src="/images/trade-lot-calculator-tool-new.png"
                       alt="Trade Lot Calculator Tool for TradingView Chrome Extension"
                       className="w-full h-full object-cover"
                     />
@@ -197,22 +197,22 @@ export default function LandingPage() {
             </div>
 
             <Tabs
-              defaultValue="how-it-works"
+              defaultValue="position"
               className="mt-12 w-full max-w-4xl mx-auto"
               onValueChange={(value) => setActiveTab(value)}
             >
               <TabsList className="grid w-full grid-cols-3 bg-slate-800/50">
                 <TabsTrigger
-                  value="how-it-works"
-                  className="data-[state=active]:bg-indigo-600 data-[state=active]:text-white"
-                >
-                  How It Works
-                </TabsTrigger>
-                <TabsTrigger
                   value="position"
                   className="data-[state=active]:bg-indigo-600 data-[state=active]:text-white"
                 >
                   Position Sizing
+                </TabsTrigger>
+                <TabsTrigger
+                  value="how-it-works"
+                  className="data-[state=active]:bg-indigo-600 data-[state=active]:text-white"
+                >
+                  How It Works
                 </TabsTrigger>
                 <TabsTrigger
                   value="key-advantages"
