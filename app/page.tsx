@@ -172,7 +172,7 @@ export default function LandingPage() {
                 <div className="relative h-[400px] w-full overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl">
                   <div className="h-full w-full flex items-center justify-center">
                     <img
-                      src="/images/trade-lot-calculator-tool-new.png"
+                      src="/images/hero-main-image.png"
                       alt="Trade Lot Calculator Tool for TradingView Chrome Extension"
                       className="w-full h-full object-cover"
                     />
