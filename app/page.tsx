@@ -512,7 +512,37 @@ export default function LandingPage() {
             </div>
             <div className="mx-auto max-w-3xl py-12">
               <Accordion type="single" collapsible className="w-full">
+                {/* New FAQ Item 1 */}
                 <AccordionItem value="item-1" className="border-slate-800">
+                  <AccordionTrigger className="text-slate-200 hover:text-purple-400">
+                    I purchased a subscription but haven't received my license key. What should I do?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-slate-400">
+                    1. Check all email folders (Spam, Junk, Promotions).<br />
+                    2. If not found, email support@trade-lot.com using your purchase email.<br />
+                    3. We’ll manually verify and send your key within 24 hours.
+                  </AccordionContent>
+                </AccordionItem>
+                {/* New FAQ Item 2 */}
+                <AccordionItem value="item-2" className="border-slate-800">
+                  <AccordionTrigger className="text-slate-200 hover:text-purple-400">
+                    What happens if I cancel my subscription?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-slate-400">
+                    Your license key is linked to your subscription. If you cancel, it will be deactivated. To regain access, a new subscription is required.
+                  </AccordionContent>
+                </AccordionItem>
+                {/* New FAQ Item 3 */}
+                <AccordionItem value="item-3" className="border-slate-800">
+                  <AccordionTrigger className="text-slate-200 hover:text-purple-400">
+                    Is there a free version?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-slate-400">
+                    Yes! The Trade Lot Tool is free to use on EURUSD. A subscription unlocks all other symbols and it is cheaper than a coffee.
+                  </AccordionContent>
+                </AccordionItem>
+                {/* Existing FAQ Item 1 - now item-4 */}
+                <AccordionItem value="item-4" className="border-slate-800">
                   <AccordionTrigger className="text-slate-200 hover:text-purple-400">
                     How does the position sizing calculator work?
                   </AccordionTrigger>
@@ -521,7 +551,8 @@ export default function LandingPage() {
                     to calculate the exact position size that keeps your risk within your predetermined limits.
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-2" className="border-slate-800">
+                {/* Existing FAQ Item 2 - now item-5 */}
+                <AccordionItem value="item-5" className="border-slate-800">
                   <AccordionTrigger className="text-slate-200 hover:text-purple-400">
                     Can I customize my risk parameters?
                   </AccordionTrigger>
@@ -530,7 +561,8 @@ export default function LandingPage() {
                     risk-reward ratios. All parameters can be adjusted to match your trading strategy.
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-3" className="border-slate-800">
+                {/* Existing FAQ Item 3 - now item-6 */}
+                <AccordionItem value="item-6" className="border-slate-800">
                   <AccordionTrigger className="text-slate-200 hover:text-purple-400">
                     Does it work with any broker?
                   </AccordionTrigger>
@@ -539,7 +571,8 @@ export default function LandingPage() {
                     currently support major brokers like Interactive Brokers, TradeStation, and more.
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-4" className="border-slate-800">
+                {/* Existing FAQ Item 4 - now item-7 */}
+                <AccordionItem value="item-7" className="border-slate-800">
                   <AccordionTrigger className="text-slate-200 hover:text-purple-400">
                     Do you offer a free trial?
                   </AccordionTrigger>
