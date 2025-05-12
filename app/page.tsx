@@ -79,8 +79,7 @@ export default function LandingPage() {
         className={cn(
           "sticky top-0 z-50 w-full border-b border-slate-800 backdrop-blur transition-all duration-200",
           isScrolled ? "bg-slate-950/95 supports-[backdrop-filter]:bg-slate-950/80" : "bg-slate-950",
-        )}
-      >
+        )}>
         <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
           <div className="flex gap-2 items-center text-xl font-bold">
             <TrendingUp className="h-6 w-6 text-purple-500" />
