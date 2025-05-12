@@ -469,9 +469,11 @@ export default function LandingPage() {
                   <h3 className="text-2xl font-bold text-slate-200">Full Access</h3>
                   <p className="text-slate-400">Complete protection for all instruments</p>
                 </div>
-                <div className="mt-4 flex items-baseline text-3xl font-bold text-slate-200">
-                  $2.97
-                  <span className="ml-1 text-sm font-medium text-slate-400">/month</span>
+                            <div className="mt-4 flex items-baseline text-3xl font-bold text-slate-200">
+              <span className="text-xl font-normal text-slate-500 line-through mr-2">$10.97</span>
+              $2.97
+              <span className="ml-1 text-sm font-medium text-slate-400">/month</span>
+            </div>
                 </div>
                 <p className="mt-2 text-sm text-purple-400 italic">Cheaper than a coffee!</p>
                 <ul className="mt-6 space-y-2 text-sm">
