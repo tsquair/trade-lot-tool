@@ -39,7 +39,7 @@ export default function LandingPage() {
     {
       name: "Elena R.",
       role: "Experienced Day Trader",
-      text: "Risk management is everything, and this tool lets me execute position sizing directly inside TradingView without switching tabs. It's simple but powerful.",
+      text: "Risk management is everything, and this tool lets me execute position sizing directly inside TradingView without switching tabs. It\'s simple but powerful.",
       stars: 5,
     },
     {
@@ -57,7 +57,7 @@ export default function LandingPage() {
     {
       name: "Alex S.",
       role: "Funded Prop Trader",
-      text: "When you're managing larger accounts, precision matters. This tool eliminates human error when calculating lot size, especially under pressure.",
+      text: "When you\'re managing larger accounts, precision matters. This tool eliminates human error when calculating lot size, especially under pressure.",
       stars: 5,
     },
     {
@@ -69,7 +69,7 @@ export default function LandingPage() {
     {
       name: "Nina K.",
       role: "Beginner, Demo Account",
-      text: "I'm still on demo, but this tool has helped me build better habits. I now plan every trade with risk in mind, not just targets.",
+      text: "I\'m still on demo, but this tool has helped me build better habits. I now plan every trade with risk in mind, not just targets.",
       stars: 5,
     },
     {
@@ -100,6 +100,7 @@ export default function LandingPage() {
         setIsScrolled(false)
       }
 
+      // Simple animation based on scroll position
       const sections = document.querySelectorAll(".animate-item")
       sections.forEach((section) => {
         const rect = section.getBoundingClientRect()
@@ -113,6 +114,7 @@ export default function LandingPage() {
 
     window.addEventListener("scroll", handleScroll)
 
+    // Initial check for elements in view
     setTimeout(() => {
       handleScroll()
     }, 100)
@@ -120,7 +122,9 @@ export default function LandingPage() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
+  // Handle tab changes
   useEffect(() => {
+    // Reset animations when tab changes
     setTimeout(() => {
       const sections = document.querySelectorAll(".animate-item")
       sections.forEach((section) => {
@@ -191,7 +195,7 @@ export default function LandingPage() {
                     No More Incorrect Lots. No More Losses.
                   </h1>
                   <p className="max-w-[600px] text-slate-400 md:text-xl">
-                    The trading tool you've been waiting for. Protect your account with our Chrome extension that
+                    The trading tool you\'ve been waiting for. Protect your account with our Chrome extension that
                     prevents costly mistakes - seamlessly integrated with TradingView.
                   </p>
                 </div>
@@ -307,7 +311,7 @@ export default function LandingPage() {
                         <div>
                           <h4 className="font-semibold text-slate-200">Mark Up Your Trade</h4>
                           <p className="text-slate-400">
-                            Use TradingView's markup tool to define your entry, stop loss, and take profit levels.
+                            Use TradingView\'s markup tool to define your entry, stop loss, and take profit levels.
                           </p>
                         </div>
                       </li>
@@ -353,9 +357,9 @@ export default function LandingPage() {
                   <div className="space-y-4">
                     <h3 className="text-2xl font-bold text-purple-400">Precise Position Sizing</h3>
                     <p className="text-slate-400">
-                      Never trade with incorrect lot sizes again. Our position calculator ensures you're always risking
+                      Never trade with incorrect lot sizes again. Our position calculator ensures you\'re always risking
                       exactly what you intend. As the only dedicated position sizing tool fully integrated with
-                      TradingView, we've helped thousands of traders protect their capital and trade with confidence.
+                      TradingView, we\'ve helped thousands of traders protect their capital and trade with confidence.
                     </p>
                     <ul className="space-y-2">
                       <li
@@ -459,13 +463,13 @@ export default function LandingPage() {
                 Pricing Plans
               </div>
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">
-                Simple, Transparent Pricing
+                Simple, Affordable Pricing
               </h2>
               <p className="mx-auto max-w-[700px] text-slate-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Choose the plan that’s right for you. Get started for free or unlock full power with our Pro plan.
               </p>
             </div>
-            <div className="mx-auto grid max-w-sm gap-8 lg:max-w-4xl lg:grid-cols-2 xl:max-w-5xl xl:grid-cols-3 items-start">
+            <div className="mx-auto grid max-w-sm gap-8 lg:max-w-4xl lg:grid-cols-2 xl:max-w-5xl xl:grid-cols-2 items-start">
               <div className="rounded-lg border border-slate-800 bg-slate-900 p-6 shadow-xl">
                 <div className="space-y-2">
                   <h3 className="text-2xl font-bold text-slate-300">Free</h3>
@@ -535,34 +539,6 @@ export default function LandingPage() {
                   Go Pro
                 </Button>
               </div>
-
-              <div className="rounded-lg border border-slate-800 bg-slate-900 p-6 shadow-xl lg:col-span-1 xl:col-auto">
-                 <div className="space-y-2">
-                  <h3 className="text-2xl font-bold text-slate-300">Lifetime</h3>
-                  <div className="flex items-baseline text-3xl font-bold text-slate-200">
-                    $49
-                    <span className="ml-1 text-sm font-medium text-slate-400">/onetime</span>
-                  </div>
-                </div>
-                <p className="mt-2 text-sm text-slate-500">One payment, lifetime access.</p>
-                <ul className="mt-6 space-y-2 text-sm">
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">All Pro Features</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">Lifetime Updates</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">Exclusive Community Access</span>
-                  </li>
-                </ul>
-                <Button variant="outline" className="mt-8 w-full border-purple-800 text-purple-400 hover:bg-purple-950/50">
-                  Get Lifetime Access
-                </Button>
-              </div>
             </div>
           </div>
         </section>
@@ -617,7 +593,7 @@ export default function LandingPage() {
                   Frequently Asked Questions
                 </h2>
                 <p className="max-w-[900px] text-slate-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Have questions? We've got answers. If you don't find what you're looking for, feel free to reach
+                  Have questions? We\'ve got answers. If you don\'t find what you\'re looking for, feel free to reach
                   out.
                 </p>
               </div>
@@ -636,7 +612,7 @@ export default function LandingPage() {
                   <AccordionTrigger className="hover:text-purple-400">How does it work with TradingView?</AccordionTrigger>
                   <AccordionContent className="text-slate-400">
                     The extension seamlessly integrates with TradingView. You mark your entry, stop-loss, and
-                    take-profit on your chart using TradingView's tools. The extension then automatically extracts
+                    take-profit on your chart using TradingView\'s tools. The extension then automatically extracts
                     this data to calculate the correct lot size without you needing to leave your chart or use
                     external calculators.
                   </AccordionContent>
@@ -644,7 +620,7 @@ export default function LandingPage() {
                 <AccordionItem value="item-3">
                   <AccordionTrigger className="hover:text-purple-400">Is it easy to use for beginners?</AccordionTrigger>
                   <AccordionContent className="text-slate-400">
-                    Yes! It's designed to be intuitive for both beginners and experienced traders. It simplifies a
+                    Yes! It\'s designed to be intuitive for both beginners and experienced traders. It simplifies a
                     crucial aspect of risk management and helps new traders build good habits from the start.
                   </AccordionContent>
                 </AccordionItem>
@@ -697,11 +673,14 @@ export default function LandingPage() {
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t border-slate-800 bg-slate-950">
         <p className="text-xs text-slate-500">&copy; 2024 Trade Lot Tool. All rights reserved.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-          <Link href="#" className="text-xs hover:underline underline-offset-4 text-slate-400 hover:text-purple-400">
+          <Link href="/terms-of-service" className="text-xs hover:underline underline-offset-4 text-slate-400 hover:text-purple-400">
             Terms of Service
           </Link>
-          <Link href="#" className="text-xs hover:underline underline-offset-4 text-slate-400 hover:text-purple-400">
+          <Link href="/privacy-policy" className="text-xs hover:underline underline-offset-4 text-slate-400 hover:text-purple-400">
             Privacy Policy
+          </Link>
+          <Link href="/refund-policy" className="text-xs hover:underline underline-offset-4 text-slate-400 hover:text-purple-400">
+            Refund Policy
           </Link>
         </nav>
       </footer>
