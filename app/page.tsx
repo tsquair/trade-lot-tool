@@ -184,7 +184,7 @@ export default function LandingPage() {
         </section>
 
         <section id="features" className="w-full py-12 md:py-24 bg-slate-900">
-          <div className="container px-4 md:px-6">
+          <div className="container max-w-6xl mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-purple-950/50 px-3 py-1 text-sm text-purple-400 border border-purple-800">
