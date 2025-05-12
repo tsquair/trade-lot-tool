@@ -195,7 +195,7 @@ export default function LandingPage() {
                     No More Incorrect Lots. No More Losses.
                   </h1>
                   <p className="max-w-[600px] text-slate-400 md:text-xl">
-                    The trading tool you\'ve been waiting for. Protect your account with our Chrome extension that
+                    The trading tool you've been waiting for. Protect your account with our Chrome extension that
                     prevents costly mistakes - seamlessly integrated with TradingView.
                   </p>
                 </div>
@@ -311,7 +311,7 @@ export default function LandingPage() {
                         <div>
                           <h4 className="font-semibold text-slate-200">Mark Up Your Trade</h4>
                           <p className="text-slate-400">
-                            Use TradingView\'s markup tool to define your entry, stop loss, and take profit levels.
+                            Use TradingView's markup tool to define your entry, stop loss, and take profit levels.
                           </p>
                         </div>
                       </li>
@@ -357,9 +357,9 @@ export default function LandingPage() {
                   <div className="space-y-4">
                     <h3 className="text-2xl font-bold text-purple-400">Precise Position Sizing</h3>
                     <p className="text-slate-400">
-                      Never trade with incorrect lot sizes again. Our position calculator ensures you\'re always risking
+                      Never trade with incorrect lot sizes again. Our position calculator ensures you're always risking
                       exactly what you intend. As the only dedicated position sizing tool fully integrated with
-                      TradingView, we\'ve helped thousands of traders protect their capital and trade with confidence.
+                      TradingView, we've helped thousands of traders protect their capital and trade with confidence.
                     </p>
                     <ul className="space-y-2">
                       <li
@@ -389,64 +389,44 @@ export default function LandingPage() {
               </TabsContent>
               <TabsContent value="key-advantages" className="mt-6">
                 <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
-                  <div className="relative h-[550px] w-full overflow-hidden rounded-xl border border-slate-800 bg-slate-900/80 shadow-xl flex items-center justify-center">
+                  <div className="relative h-[550px] w-full overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl flex items-center justify-center">
                     <img
-                      src="/images/trade-lot-tool-3.png"
-                      alt="Trade Lot Tool Key Advantages"
+                      src="/images/trade-lot-logo-3.png"
+                      alt="Key Advantages Illustration"
                       className="w-full h-full object-cover"
                       style={{ objectPosition: "center" }}
                     />
                   </div>
                   <div className="space-y-4">
                     <h3 className="text-2xl font-bold text-purple-400">Key Advantages</h3>
-                    <ul className="space-y-6">
+                    <ul className="space-y-2">
                       <li
                         id="ka1"
                         className={`flex items-start gap-2 animate-item transition-all duration-700 ${animated.ka1 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
                       >
-                        <Shield className="h-5 w-5 text-purple-500 mt-1 flex-shrink-0" />
-                        <div>
-                          <h4 className="font-semibold text-slate-200">Protect Your Capital</h4>
-                          <p className="text-slate-400">
-                            Avoid costly mistakes by ensuring every trade adheres to your risk management rules.
-                          </p>
-                        </div>
+                        <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
+                        <span className="text-slate-300">Seamless TradingView integration</span>
                       </li>
                       <li
                         id="ka2"
                         className={`flex items-start gap-2 animate-item transition-all duration-700 delay-150 ${animated.ka2 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
                       >
-                        <Calculator className="h-5 w-5 text-purple-500 mt-1 flex-shrink-0" />
-                        <div>
-                          <h4 className="font-semibold text-slate-200">Seamless Integration</h4>
-                          <p className="text-slate-400">
-                            Works directly within your TradingView interface, no need to switch to external calculators.
-                          </p>
-                        </div>
+                        <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
+                        <span className="text-slate-300">Prevents costly lot size errors</span>
                       </li>
                       <li
                         id="ka3"
                         className={`flex items-start gap-2 animate-item transition-all duration-700 delay-300 ${animated.ka3 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
                       >
-                        <CheckCircle className="h-5 w-5 text-purple-500 mt-1 flex-shrink-0" />
-                        <div>
-                          <h4 className="font-semibold text-slate-200">Build Discipline</h4>
-                          <p className="text-slate-400">
-                            Reinforce good trading habits by consistently applying proper position sizing.
-                          </p>
-                        </div>
+                        <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
+                        <span className="text-slate-300">Supports all instruments</span>
                       </li>
                       <li
                         id="ka4"
-                        className={`flex items-start gap-2 animate-item transition-all duration-700 delay-450 ${animated.ka4 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
+                        className={`flex items-start gap-2 animate-item transition-all duration-700 delay-[450ms] ${animated.ka4 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
                       >
-                        <Lock className="h-5 w-5 text-purple-500 mt-1 flex-shrink-0" />
-                        <div>
-                          <h4 className="font-semibold text-slate-200">Trade with Confidence</h4>
-                          <p className="text-slate-400">
-                            Know that your risk is managed on every trade, allowing you to focus on your strategy.
-                          </p>
-                        </div>
+                        <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
+                        <span className="text-slate-300">User-friendly and intuitive</span>
                       </li>
                     </ul>
                   </div>
@@ -459,85 +439,77 @@ export default function LandingPage() {
         <section id="pricing" className="w-full py-12 md:py-24 bg-slate-950">
           <div className="container mx-auto max-w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl grid items-center justify-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-3">
-              <div className="inline-block rounded-lg bg-purple-950/50 px-3 py-1 text-sm text-purple-400 border border-purple-800">
-                Pricing Plans
-              </div>
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">
+              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">
                 Simple, Affordable Pricing
               </h2>
-              <p className="mx-auto max-w-[700px] text-slate-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Choose the plan that’s right for you. Get started for free or unlock full power with our Pro plan.
+              <p className="mx-auto max-w-[600px] text-slate-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                Get full access to all features for less than the price of a coffee. Cancel anytime.
               </p>
             </div>
-            <div className="mx-auto grid max-w-sm gap-8 lg:max-w-4xl lg:grid-cols-2 xl:max-w-5xl xl:grid-cols-2 items-start">
+            <div className="mx-auto grid max-w-sm gap-8 lg:max-w-4xl lg:grid-cols-2">
               <div className="rounded-lg border border-slate-800 bg-slate-900 p-6 shadow-xl">
-                <div className="space-y-2">
-                  <h3 className="text-2xl font-bold text-slate-300">Free</h3>
-                  <div className="flex items-baseline text-3xl font-bold text-slate-200">
-                    $0
-                    <span className="ml-1 text-sm font-medium text-slate-400">/month</span>
-                  </div>
+                <h3 className="text-2xl font-bold text-slate-300">Free</h3>
+                <p className="mt-1 text-sm text-slate-400">For EURUSD only</p>
+                <div className="mt-4 flex items-baseline text-3xl font-bold text-slate-200">
+                  $0
+                  <span className="ml-1 text-sm font-medium text-slate-400">/month</span>
                 </div>
-                <p className="mt-2 text-sm text-slate-500">Basic features to get you started.</p>
+                <p className="mt-2 text-sm text-slate-400 italic">Basic lot calculation</p>
                 <ul className="mt-6 space-y-2 text-sm">
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">Basic Lot Size Calculation</span>
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
+                    <span className="text-slate-300">EURUSD instrument only</span>
                   </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">Manual Data Input</span>
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
+                    <span className="text-slate-300">Standard position sizing</span>
                   </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">Community Support</span>
+                  <li className="flex items-center text-slate-600">
+                    <Lock className="mr-2 h-4 w-4" />
+                    <span className="text-slate-500"><s>All other instruments</s></span>
+                  </li>
+                  <li className="flex items-center text-slate-600">
+                    <Lock className="mr-2 h-4 w-4" />
+                    <span className="text-slate-500"><s>Advanced risk management</s></span>
                   </li>
                 </ul>
                 <Button variant="outline" className="mt-8 w-full border-purple-800 text-purple-400 hover:bg-purple-950/50">
-                  Get Started Free
+                  Use for Free
                 </Button>
               </div>
-
               <div className="rounded-lg border-2 border-purple-600 bg-slate-900 p-6 shadow-xl relative">
                 <div className="absolute top-0 right-0 -mt-3 mr-3">
-                  <div className="inline-block rounded-full bg-purple-600 px-3 py-1 text-xs font-semibold text-white">
+                  <div className="inline-flex items-center rounded-full border border-purple-800 bg-purple-600 px-3 py-1 text-xs font-semibold text-white">
                     Best Value
                   </div>
                 </div>
-                <div className="space-y-2">
-                  <h3 className="text-2xl font-bold text-purple-400">Full Access</h3>
-                   <div className="mt-4 flex items-baseline text-3xl font-bold text-slate-200">
-                      <span className="text-xl font-normal text-slate-500 line-through mr-2">$10.97</span>
-                      $2.97
-                      <span className="ml-1 text-sm font-medium text-slate-400">/month</span>
-                    </div>
+                <h3 className="text-2xl font-bold text-purple-400">Full Access</h3>
+                {/* Corrected Price Display Div below */}
+                <div className="mt-4 flex items-baseline text-3xl font-bold text-slate-200">
+                  <span className="text-xl font-normal text-slate-500 line-through mr-2">$10.97</span>
+                  $2.97
+                  <span className="ml-1 text-sm font-medium text-slate-400">/month</span>
                 </div>
                 <p className="mt-2 text-sm text-purple-400 italic">Cheaper than a coffee!</p>
                 <ul className="mt-6 space-y-2 text-sm">
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">All Free Features</span>
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
+                    <span className="text-slate-300">Access to ALL instruments</span>
                   </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">Automatic Data Extraction from Chart</span>
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
+                    <span className="text-slate-300">Advanced position sizing</span>
                   </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">Account Currency Conversion</span>
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
+                    <span className="text-slate-300">Complete risk management</span>
                   </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">Save Default Settings</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">Priority Support</span>
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
+                    <span className="text-slate-300">Priority support</span>
                   </li>
                 </ul>
-                <Button className="mt-8 w-full bg-purple-600 hover:bg-purple-700 text-white">
-                  Go Pro
-                </Button>
+                <Button className="mt-8 w-full bg-indigo-600 hover:bg-indigo-700 text-white">Get Full Access</Button>
               </div>
             </div>
           </div>
@@ -568,7 +540,7 @@ export default function LandingPage() {
                           <Star key={`empty-${i}`} className="h-5 w-5 text-slate-600" />
                         ))}
                       </div>
-                      <p className="text-slate-300 text-sm mb-4 flex-grow">"{testimonial.text}"</p>
+                      <p className="text-slate-300 text-sm mb-4 flex-grow">\"{testimonial.text}\"</p>
                       <div>
                         <p className="font-semibold text-slate-200 text-sm">{testimonial.name}</p>
                         {testimonial.role && <p className="text-xs text-slate-400">{testimonial.role}</p>}
@@ -582,7 +554,7 @@ export default function LandingPage() {
         </section>
         {/* TESTIMONIALS SECTION END */}
 
-        <section id="faq" className="w-full py-12 md:py-24 bg-slate-950">
+<section id="faq" className="w-full py-12 md:py-24 bg-slate-950">
           <div className="container mx-auto max-w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -593,96 +565,73 @@ export default function LandingPage() {
                   Frequently Asked Questions
                 </h2>
                 <p className="max-w-[900px] text-slate-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Have questions? We\'ve got answers. If you don\'t find what you\'re looking for, feel free to reach
-                  out.
+                  Have questions? We&apos;ve got answers. If you don&apos;t find what you&apos;re looking for, feel free to
+                  reach out.
                 </p>
               </div>
             </div>
-            <div className="mx-auto mt-12 max-w-3xl w-full">
+            <div className="mx-auto max-w-3xl py-12">
               <Accordion type="single" collapsible className="w-full">
-                <AccordionItem value="item-1">
-                  <AccordionTrigger className="hover:text-purple-400">What is Trade Lot Tool?</AccordionTrigger>
+                <AccordionItem value="item-1" className="border-slate-800">
+                  <AccordionTrigger className="text-slate-200 hover:text-purple-400">
+                    How does the position sizing calculator work?
+                  </AccordionTrigger>
                   <AccordionContent className="text-slate-400">
-                    Trade Lot Tool is a Chrome extension designed for TradingView that helps traders accurately
-                    calculate their position size (lot size) based on their account balance, risk percentage, and
-                    stop-loss distance. It aims to prevent costly mistakes from incorrect lot sizing.
+                    Our position sizing calculator takes your account balance, risk percentage, and stop-loss distance
+                    to calculate the exact position size that keeps your risk within your predetermined limits.
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-2">
-                  <AccordionTrigger className="hover:text-purple-400">How does it work with TradingView?</AccordionTrigger>
+                <AccordionItem value="item-2" className="border-slate-800">
+                  <AccordionTrigger className="text-slate-200 hover:text-purple-400">
+                    Can I customize my risk parameters?
+                  </AccordionTrigger>
                   <AccordionContent className="text-slate-400">
-                    The extension seamlessly integrates with TradingView. You mark your entry, stop-loss, and
-                    take-profit on your chart using TradingView\'s tools. The extension then automatically extracts
-                    this data to calculate the correct lot size without you needing to leave your chart or use
-                    external calculators.
+                    Yes, you can set your preferred risk percentage per trade, daily and weekly loss limits, and minimum
+                    risk-reward ratios. All parameters can be adjusted to match your trading strategy.
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-3">
-                  <AccordionTrigger className="hover:text-purple-400">Is it easy to use for beginners?</AccordionTrigger>
+                <AccordionItem value="item-3" className="border-slate-800">
+                  <AccordionTrigger className="text-slate-200 hover:text-purple-400">
+                    Does it work with any broker?
+                  </AccordionTrigger>
                   <AccordionContent className="text-slate-400">
-                    Yes! It\'s designed to be intuitive for both beginners and experienced traders. It simplifies a
-                    crucial aspect of risk management and helps new traders build good habits from the start.
+                    Our extension works with any broker that integrates with TradingView. For one-click trading, we
+                    currently support major brokers like Interactive Brokers, TradeStation, and more.
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-4">
-                  <AccordionTrigger className="hover:text-purple-400">What are the benefits of using this tool?</AccordionTrigger>
+                <AccordionItem value="item-4" className="border-slate-800">
+                  <AccordionTrigger className="text-slate-200 hover:text-purple-400">
+                    Do you offer a free trial?
+                  </AccordionTrigger>
                   <AccordionContent className="text-slate-400">
-                    Key benefits include protecting your trading capital, saving time, improving trading discipline,
-                    reducing errors in lot size calculation, and trading with more confidence knowing your risk is
-                    managed.
-                  </AccordionContent>
-                </AccordionItem>
-                <AccordionItem value="item-5">
-                  <AccordionTrigger className="hover:text-purple-400">Do I need to pay to use it?</AccordionTrigger>
-                  <AccordionContent className="text-slate-400">
-                    There is a free version with basic features. For advanced features like automatic data extraction
-                    from charts, account currency conversion, and saving default settings, we offer a Pro plan and a
-                    Lifetime access option.
+                    We don&apos;t offer a free trial, but at just $2.97 per month (less than a coffee!), our tool is
+                    incredibly affordable. You can cancel anytime, and the potential savings are enormous - one
+                    prevented mistake can save you hundreds or thousands of dollars in trading losses. Plus, we offer a
+                    free version for EURUSD so you can experience the core functionality before upgrading.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
             </div>
           </div>
         </section>
-
-        <section className="w-full py-12 md:py-24 bg-gradient-to-t from-slate-950 to-slate-900">
-          <div className="container mx-auto max-w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl grid items-center justify-center gap-4 px-4 text-center md:px-6">
-            <div className="space-y-3">
-              <h2 className="text-3xl font-bold tracking-tighter md:text-5xl bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">
-                Ready to Trade Smarter?
-              </h2>
-              <p className="mx-auto max-w-[600px] text-slate-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Stop guessing your lot sizes and start protecting your capital. Install the Trade Lot Tool extension
-                today and take control of your trading risk.
-              </p>
-            </div>
-            <div className="mx-auto w-full max-w-sm space-y-2">
-              <Button size="lg" className="w-full bg-indigo-600 hover:bg-indigo-700 text-white">
-                <Download className="mr-2 h-4 w-4" /> Install Free Extension
-              </Button>
-              <p className="text-xs text-slate-500">
-                Get started in minutes. Secure your trades.
-                <Link href="#pricing" className="underline underline-offset-2 text-purple-400 hover:text-purple-300">
-                  View Pricing
-                </Link>
-              </p>
-            </div>
-          </div>
-        </section>
       </main>
-      <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t border-slate-800 bg-slate-950">
-        <p className="text-xs text-slate-500">&copy; 2024 Trade Lot Tool. All rights reserved.</p>
-        <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-          <Link href="/terms-of-service" className="text-xs hover:underline underline-offset-4 text-slate-400 hover:text-purple-400">
-            Terms of Service
-          </Link>
-          <Link href="/privacy-policy" className="text-xs hover:underline underline-offset-4 text-slate-400 hover:text-purple-400">
-            Privacy Policy
-          </Link>
-          <Link href="/refund-policy" className="text-xs hover:underline underline-offset-4 text-slate-400 hover:text-purple-400">
-            Refund Policy
-          </Link>
-        </nav>
+      <footer className="py-8 border-t border-slate-800">
+        <div className="container mx-auto max-w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl px-4 md:px-6 flex flex-col sm:flex-row justify-between items-center">
+          <p className="text-sm text-slate-500 mb-2 sm:mb-0">
+            © {new Date().getFullYear()} Trade Lot Tool. All rights reserved.
+          </p>
+          <div className="flex space-x-4">
+            <Link href="/terms-of-service" className="text-sm text-slate-400 hover:text-purple-400">
+              Terms of Service
+            </Link>
+            <Link href="/privacy-policy" className="text-sm text-slate-400 hover:text-purple-400">
+              Privacy Policy
+            </Link>
+            <Link href="/refund-policy" className="text-sm text-slate-400 hover:text-purple-400">
+              Refund Policy
+            </Link>
+          </div>
+        </div>
       </footer>
     </div>
   )
