@@ -323,185 +323,126 @@ export default function LandingPage() {
                   <div className="relative h-[550px] w-full overflow-hidden rounded-xl border border-slate-800 bg-slate-900 shadow-xl flex items-center justify-center">
                     <img
                       src="/images/trade-lot-logo-3.png"
-                      alt="Trader using mobile app"
+                      alt="Key Advantages Illustration"
                       className="w-full h-full object-cover"
                       style={{ objectPosition: "center" }}
                     />
                   </div>
                   <div className="space-y-4">
                     <h3 className="text-2xl font-bold text-purple-400">Key Advantages</h3>
-                    <ul className="space-y-6">
+                    <ul className="space-y-2">
                       <li
                         id="ka1"
                         className={`flex items-start gap-2 animate-item transition-all duration-700 ${animated.ka1 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
                       >
-                        <CheckCircle className="h-5 w-5 text-purple-500 mt-1 flex-shrink-0" />
-                        <div>
-                          <h4 className="font-semibold text-slate-200">Automated Lot Size Calculation</h4>
-                          <p className="text-slate-400">
-                            Effortlessly calculate lot sizes using your chart markup—no manual entry required.
-                          </p>
-                        </div>
+                        <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
+                        <span className="text-slate-300">Seamless TradingView integration</span>
                       </li>
                       <li
                         id="ka2"
                         className={`flex items-start gap-2 animate-item transition-all duration-700 delay-150 ${animated.ka2 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
                       >
-                        <CheckCircle className="h-5 w-5 text-purple-500 mt-1 flex-shrink-0" />
-                        <div>
-                          <h4 className="font-semibold text-slate-200">Seamless TradingView Integration</h4>
-                          <p className="text-slate-400">
-                            Built to work directly within TradingView. No switching apps or copying data.
-                          </p>
-                        </div>
+                        <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
+                        <span className="text-slate-300">Prevents costly lot size errors</span>
                       </li>
                       <li
                         id="ka3"
                         className={`flex items-start gap-2 animate-item transition-all duration-700 delay-300 ${animated.ka3 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
                       >
-                        <CheckCircle className="h-5 w-5 text-purple-500 mt-1 flex-shrink-0" />
-                        <div>
-                          <h4 className="font-semibold text-slate-200">Smart Risk Management</h4>
-                          <p className="text-slate-400">
-                            Set your account balance and risk percentage once—our tool handles the rest.
-                          </p>
-                        </div>
+                        <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
+                        <span className="text-slate-300">Supports all instruments</span>
                       </li>
                       <li
                         id="ka4"
-                        className={`flex items-start gap-2 animate-item transition-all duration-700 delay-450 ${animated.ka4 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
+                        className={`flex items-start gap-2 animate-item transition-all duration-700 delay-[450ms] ${animated.ka4 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}
                       >
-                        <CheckCircle className="h-5 w-5 text-purple-500 mt-1 flex-shrink-0" />
-                        <div>
-                          <h4 className="font-semibold text-slate-200">Trade Efficiently</h4>
-                          <p className="text-slate-400">
-                            Save time and reduce errors. Whether you're a beginner or a pro, this tool keeps you focused
-                            on execution.
-                          </p>
-                        </div>
+                        <CheckCircle className="h-5 w-5 text-purple-500 mt-0.5 flex-shrink-0" />
+                        <span className="text-slate-300">User-friendly and intuitive</span>
                       </li>
                     </ul>
                   </div>
                 </div>
               </TabsContent>
             </Tabs>
-
-            <div className="mt-16 grid gap-8 md:grid-cols-3">
-              <div className="flex flex-col space-y-3 rounded-lg border border-slate-800 bg-slate-900 p-6 shadow-md">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-purple-950">
-                  <Calculator className="h-5 w-5 text-purple-400" />
-                </div>
-                <h3 className="text-xl font-bold text-purple-400">Precise Position Sizing</h3>
-                <p className="text-slate-400">
-                  Calculate exact position sizes based on your risk tolerance and account balance.
-                </p>
-              </div>
-              <div className="flex flex-col space-y-3 rounded-lg border border-slate-800 bg-slate-900 p-6 shadow-md">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-purple-950">
-                  <Lock className="h-5 w-5 text-purple-400" />
-                </div>
-                <h3 className="text-xl font-bold text-purple-400">Risk Warnings</h3>
-                <p className="text-slate-400">
-                  Get instant alerts when you're about to make a trade that exceeds your risk parameters.
-                </p>
-              </div>
-              <div className="flex flex-col space-y-3 rounded-lg border border-slate-800 bg-slate-900 p-6 shadow-md">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-purple-950">
-                  <Shield className="h-5 w-5 text-purple-400" />
-                </div>
-                <h3 className="text-xl font-bold text-purple-400">Account Protection</h3>
-                <p className="text-slate-400">
-                  Set maximum daily and weekly loss limits to prevent catastrophic drawdowns.
-                </p>
-              </div>
-            </div>
           </div>
         </section>
 
         <section id="pricing" className="w-full py-12 md:py-24 bg-slate-950">
-          <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-purple-950/50 px-3 py-1 text-sm text-purple-400 border border-purple-800">
-                  Pricing
-                </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">
-                  Simple, Affordable Pricing
-                </h2>
-                <p className="max-w-[600px] text-slate-400 md:text-xl mx-auto">
-                  The trading tool you've been waiting for - the only one seamlessly integrated with Chrome and
-                  TradingView
-                </p>
-              </div>
+          <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
+            <div className="space-y-3">
+              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">
+                Simple, Affordable Pricing
+              </h2>
+              <p className="mx-auto max-w-[600px] text-slate-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                Get full access to all features for less than the price of a coffee. Cancel anytime.
+              </p>
             </div>
-            <div className="mx-auto grid max-w-4xl gap-6 py-12 md:grid-cols-2">
-              <div className="flex flex-col rounded-xl border border-slate-800 bg-slate-900 p-6 shadow-md">
-                <div className="space-y-2">
-                  <h3 className="text-2xl font-bold text-slate-200">Free</h3>
-                  <p className="text-slate-400">Try it out with limited access</p>
-                </div>
+            <div className="mx-auto grid max-w-sm gap-8 lg:max-w-4xl lg:grid-cols-2">
+              <div className="rounded-lg border border-slate-800 bg-slate-900 p-6 shadow-xl">
+                <h3 className="text-2xl font-bold text-slate-300">Free</h3>
+                <p className="mt-1 text-sm text-slate-400">For EURUSD only</p>
                 <div className="mt-4 flex items-baseline text-3xl font-bold text-slate-200">
                   $0
-                  <span className="ml-1 text-sm font-medium text-slate-400">/forever</span>
+                  <span className="ml-1 text-sm font-medium text-slate-400">/month</span>
                 </div>
+                <p className="mt-2 text-sm text-slate-400 italic">Basic lot calculation</p>
                 <ul className="mt-6 space-y-2 text-sm">
                   <li className="flex items-center">
                     <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">Access to EURUSD only</span>
+                    <span className="text-slate-300">EURUSD instrument only</span>
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">Basic position sizing</span>
+                    <span className="text-slate-300">Standard position sizing</span>
                   </li>
-                  <li className="flex items-center">
-                    <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">Risk calculation</span>
+                  <li className="flex items-center text-slate-600">
+                    <Lock className="mr-2 h-4 w-4" />
+                    <span className="text-slate-500"><s>All other instruments</s></span>
+                  </li>
+                  <li className="flex items-center text-slate-600">
+                    <Lock className="mr-2 h-4 w-4" />
+                    <span className="text-slate-500"><s>Advanced risk management</s></span>
                   </li>
                 </ul>
-                <Button className="mt-8 bg-slate-800 hover:bg-slate-700 text-slate-200">Get Started</Button>
+                <Button variant="outline" className="mt-8 w-full border-purple-800 text-purple-400 hover:bg-purple-950/50">
+                  Use for Free
+                </Button>
               </div>
-              <div className="flex flex-col rounded-xl border border-indigo-700 bg-slate-900 p-6 shadow-lg relative">
-                <div className="absolute -top-4 left-0 right-0 mx-auto w-fit rounded-full bg-indigo-600 px-3 py-1 text-xs font-medium text-white">
-                  Best Value
+              <div className="rounded-lg border-2 border-purple-600 bg-slate-900 p-6 shadow-xl relative">
+                <div className="absolute top-0 right-0 -mt-3 mr-3">
+                  <div className="inline-flex items-center rounded-full border border-purple-800 bg-purple-600 px-3 py-1 text-xs font-semibold text-white">
+                    Best Value
+                  </div>
                 </div>
-                <div className="space-y-2">
-                  <h3 className="text-2xl font-bold text-slate-200">Full Access</h3>
-                  <p className="text-slate-400">Complete protection for all instruments</p>
+                <h3 className="text-2xl font-bold text-purple-400">Full Access</h3>
+                {/* Corrected Price Display Div below */}
+                <div className="mt-4 flex items-baseline text-3xl font-bold text-slate-200">
+                  <span className="text-xl font-normal text-slate-500 line-through mr-2">$10.97</span>
+                  $2.97
+                  <span className="ml-1 text-sm font-medium text-slate-400">/month</span>
                 </div>
-                            <div className="rounded-lg border-2 border-purple-600 bg-slate-900 p-6 shadow-xl relative">
-  <div className="absolute top-0 right-0 -mt-3 mr-3">
-    <div className="inline-flex items-center rounded-full border border-purple-800 bg-purple-600 px-3 py-1 text-xs font-semibold text-white">
-      Best Value
-    </div>
-  </div>
-  <h3 className="text-2xl font-bold text-purple-400">Full Access</h3>
-  {/* Corrected Price Display Div below */}
-  <div className="mt-4 flex items-baseline text-3xl font-bold text-slate-200">
-    <span className="text-xl font-normal text-slate-500 line-through mr-2">$10.97</span>
-    $2.97
-    <span className="ml-1 text-sm font-medium text-slate-400">/month</span>
-  </div>
-  <p className="mt-2 text-sm text-purple-400 italic">Cheaper than a coffee!</p>
-  <ul className="mt-6 space-y-2 text-sm">
-    <li className="flex items-center">
-      <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
-      <span className="text-slate-300">Access to ALL instruments</span>
-    </li>
-    <li className="flex items-center">
-      <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
-      <span className="text-slate-300">Advanced position sizing</span>
-    </li>
-    <li className="flex items-center">
-      <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
-      <span className="text-slate-300">Complete risk management</span>
-    </li>
-    <li className="flex items-center">
-      <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
-      <span className="text-slate-300">Priority support</span>
-    </li>
-  </ul>
-  <Button className="mt-8 w-full bg-indigo-600 hover:bg-indigo-700 text-white">Get Full Access</Button>
-</div>
+                <p className="mt-2 text-sm text-purple-400 italic">Cheaper than a coffee!</p>
+                <ul className="mt-6 space-y-2 text-sm">
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
+                    <span className="text-slate-300">Access to ALL instruments</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
+                    <span className="text-slate-300">Advanced position sizing</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
+                    <span className="text-slate-300">Complete risk management</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
+                    <span className="text-slate-300">Priority support</span>
+                  </li>
+                </ul>
+                <Button className="mt-8 w-full bg-indigo-600 hover:bg-indigo-700 text-white">Get Full Access</Button>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -512,7 +453,7 @@ export default function LandingPage() {
                 <div className="inline-block rounded-lg bg-purple-950/50 px-3 py-1 text-sm text-purple-400 border border-purple-800">
                   FAQ
                 </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">
+                <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">
                   Frequently Asked Questions
                 </h2>
               </div>
@@ -594,55 +535,11 @@ export default function LandingPage() {
             </div>
           </div>
         </section>
-
-        <section className="w-full py-12 md:py-24 bg-gradient-to-b from-slate-900 to-slate-950">
-          <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">
-                  Protect Your Trading Account Today
-                </h2>
-                <p className="max-w-[600px] text-slate-400 md:text-xl">
-                  For less than the price of a coffee, eliminate incorrect lot sizes and undesired losses.
-                </p>
-              </div>
-              <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Button size="lg" className="bg-indigo-600 hover:bg-indigo-700">
-                  <Download className="mr-2 h-4 w-4" /> Install Extension
-                </Button>
-              </div>
-              <p className="text-sm text-slate-500">No credit card required to try the free version.</p>
-            </div>
-          </div>
-        </section>
       </main>
-      <footer className="w-full border-t border-slate-800 bg-slate-950">
-        <div className="container flex flex-col items-center justify-between gap-4 py-10 md:h-24 md:flex-row md:py-0">
-          <div className="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
-            <TrendingUp className="h-6 w-6 text-purple-500" />
-            <p className="text-center text-sm leading-loose text-slate-400 md:text-left">
-              &copy; {new Date().getFullYear()} Trade Lot Tool. All rights reserved.
-            </p>
-          </div>
-          <div className="flex gap-4">
-            <Link href="/terms" className="text-sm text-slate-400 underline-offset-4 hover:text-purple-400">
-              Terms
-            </Link>
-            <Link
-              href="/privacy"
-              className="text-sm text-slate-400 underline-offset-4 hover:text-purple-400 hover:underline"
-            >
-              Privacy
-            </Link>
-            <Link
-              href="/refund-policy"
-              className="text-sm text-slate-400 underline-offset-4 hover:text-purple-400 hover:underline"
-            >
-              Refund Policy
-            </Link>
-          </div>
-        </div>
+      <footer className="py-8 text-center text-sm text-slate-500 border-t border-slate-800">
+        © {new Date().getFullYear()} Trade Lot Tool. All rights reserved.
       </footer>
     </div>
   )
 }
+
