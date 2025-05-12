@@ -80,7 +80,7 @@ export default function LandingPage() {
           "sticky top-0 z-50 w-full border-b border-slate-800 backdrop-blur transition-all duration-200",
           isScrolled ? "bg-slate-950/95 supports-[backdrop-filter]:bg-slate-950/80" : "bg-slate-950",
         )}>
-        <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
+        <div className="container mx-auto max-w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0 px-4 md:px-6">
           <div className="flex gap-2 items-center text-xl font-bold">
             <TrendingUp className="h-6 w-6 text-purple-500" />
             <span className="bg-gradient-to-r from-purple-400 to-indigo-500 bg-clip-text text-transparent">
@@ -115,7 +115,7 @@ export default function LandingPage() {
       </header>
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-slate-950 to-slate-900">
-          <div className="container max-w-6xl mx-auto px-4 md:px-6">
+          <div className="container mx-auto max-w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <div className="flex flex-col justify-center space-y-4">
                 <div className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors border-purple-800 bg-purple-950/50 text-purple-400 w-fit">
@@ -184,7 +184,7 @@ export default function LandingPage() {
         </section>
 
         <section id="features" className="w-full py-12 md:py-24 bg-slate-900">
-          <div className="container max-w-6xl mx-auto px-4 md:px-6">
+          <div className="container mx-auto max-w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-purple-950/50 px-3 py-1 text-sm text-purple-400 border border-purple-800">
@@ -368,8 +368,7 @@ export default function LandingPage() {
         </section>
 
         <section id="pricing" className="w-full py-12 md:py-24 bg-slate-950">
-          <div className="container max-w-6xl mx-auto grid items-center justify-center gap-4 px-4 text-center md:px-6">
-
+          <div className="container mx-auto max-w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl grid items-center justify-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">
                 Simple, Affordable Pricing
@@ -448,7 +447,7 @@ export default function LandingPage() {
         </section>
 
         <section id="faq" className="w-full py-12 md:py-24 bg-slate-900">
-          <div className="container max-w-6xl mx-auto px-4 md:px-6"> 
+          <div className="container mx-auto max-w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-purple-950/50 px-3 py-1 text-sm text-purple-400 border border-purple-800">
