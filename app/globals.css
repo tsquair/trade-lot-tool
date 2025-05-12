@@ -85,10 +85,15 @@ body {
 }
 
 @layer base {
+  html {
+    font-size: 125%; /* Increase base font size to scale all rem units */
+  }
   * {
     @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
+    /* The font-family from the rule above will still apply */
   }
 }
+
