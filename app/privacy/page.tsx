@@ -15,7 +15,7 @@ export default function PrivacyPage() {
         </h1>
 
         <div className="prose prose-invert prose-slate max-w-none">
-          <p className="text-slate-400">Effective Date: 10/05/2024</p>
+    
 
           <p className="text-slate-300 mt-6">
             This Privacy Policy explains how Trade Tool ("we", "us", or "our") collects, uses, and protects your
