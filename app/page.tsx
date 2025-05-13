@@ -174,19 +174,16 @@ export default function LandingPage() {
                 FAQ
               </Link>
             </nav>
-             </nav>
-<a
-  href="https://chromewebstore.google.com/detail/trade-lot-tool/nhliadcekakcdldjbmjmdnfchahnekhj"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <Button className="bg-purple-600 hover:bg-purple-700 text-white">
-    <ChevronRight className="ml-1 h-4 w-4" />
-  </Button>
-</a>
-
+             
+            ‹Button className="bg-purple-600 hover:bg-purple-700 text-white">
+              Get Extension          
+              <a href="https://chromewebstore.google.com/detail/trade-lot-tool/nhliadcekakcdldjbmjmdnfchahnekhj" target="_blank" rel="noopener noreferrer">  rel="noopener noreferrer"
+   <button>Download Extension</button>
+  </a>
+              <ChevronRight className="ml-1 h-4 w-4" />
+            </Button>
           </div>
-        </div>
+         </div>
       </header>
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-slate-950 to-slate-900">
