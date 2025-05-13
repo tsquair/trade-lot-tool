@@ -181,7 +181,6 @@ export default function LandingPage() {
   rel="noopener noreferrer"
 >
   <Button className="bg-purple-600 hover:bg-purple-700 text-white">
-    Get Extension
     <ChevronRight className="ml-1 h-4 w-4" />
   </Button>
 </a>
