@@ -15,7 +15,7 @@ export default function TermsPage() {
         </h1>
 
         <div className="prose prose-invert prose-slate max-w-none">
-          <p className="text-slate-400">Effective Date: 10/05/2024</p>
+
 
           <p className="text-slate-300 mt-6">
             These Terms govern your use of the Trade Tool Chrome extension ("Service"). By using our Service, you agree
