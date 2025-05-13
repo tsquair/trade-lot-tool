@@ -179,9 +179,6 @@ export default function LandingPage() {
               Get Extension          
               <a href="https://chromewebstore.google.com/detail/trade-lot-tool/nhliadcekakcdldjbmjmdnfchahnekhj"
   </a>
-              <ChevronRight className="ml-1 h-4 w-4" />
-            </Button>
-          </div>
          </div>
       </header>
       <main className="flex-1">
