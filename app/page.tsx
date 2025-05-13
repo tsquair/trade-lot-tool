@@ -174,7 +174,19 @@ export default function LandingPage() {
                 FAQ
               </Link>
             </nav>
-             
+             </nav>
+
+<a 
+  href="https://chromewebstore.google.com/detail/trade-lot-tool/nhliadcekakcdldjbmjmdnfchahnekhj" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <Button className="bg-purple-600 hover:bg-purple-700 text-white">
+    Get Extension
+    <ChevronRight className="ml-1 h-4 w-4" />
+  </Button>
+</a>
+
             ‹Button className="bg-purple-600 hover:bg-purple-700 text-white">
               Get Extension
               <ChevronRight className="ml-1 h-4 w-4" />
