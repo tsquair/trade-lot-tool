@@ -189,9 +189,6 @@ export default function LandingPage() {
   </Button>
 </a>
 
-              Get Extension
-              <ChevronRight className="ml-1 h-4 w-4" />
-            </Button>
           </div>
         </div>
       </header>
