@@ -554,7 +554,7 @@ export default function LandingPage() {
         </section>
         {/* TESTIMONIALS SECTION END */}
 
-<section id="faq" className="w-full py-12 md:py-24 bg-slate-950">
+        <section id="faq" className="w-full py-12 md:py-24 bg-slate-950">
           <div className="container mx-auto max-w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -564,15 +564,41 @@ export default function LandingPage() {
                 <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">
                   Frequently Asked Questions
                 </h2>
-                <p className="max-w-[900px] text-slate-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Have questions? We&apos;ve got answers. If you don&apos;t find what you&apos;re looking for, feel free to
-                  reach out.
-                </p>
               </div>
             </div>
             <div className="mx-auto max-w-3xl py-12">
               <Accordion type="single" collapsible className="w-full">
+                {/* New FAQ Item 1 */}
                 <AccordionItem value="item-1" className="border-slate-800">
+                  <AccordionTrigger className="text-slate-200 hover:text-purple-400">
+                    I purchased a subscription but haven't received my license key. What should I do?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-slate-400">
+                    1. Check all email folders (Spam, Junk, Promotions).<br />
+                    2. If not found, email support@trade-lot.com using your purchase email.<br />
+                    3. We’ll manually verify and send your key within 24 hours.
+                  </AccordionContent>
+                </AccordionItem>
+                {/* New FAQ Item 2 */}
+                <AccordionItem value="item-2" className="border-slate-800">
+                  <AccordionTrigger className="text-slate-200 hover:text-purple-400">
+                    What happens if I cancel my subscription?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-slate-400">
+                    Your license key is linked to your subscription. If you cancel, it will be deactivated. To regain access, a new subscription is required.
+                  </AccordionContent>
+                </AccordionItem>
+                {/* New FAQ Item 3 */}
+                <AccordionItem value="item-3" className="border-slate-800">
+                  <AccordionTrigger className="text-slate-200 hover:text-purple-400">
+                    Is there a free version?
+                  </AccordionTrigger>
+                  <AccordionContent className="text-slate-400">
+                    Yes! The Trade Lot Tool is free to use on EURUSD. A subscription unlocks all other symbols and it is cheaper than a coffee.
+                  </AccordionContent>
+                </AccordionItem>
+                {/* Existing FAQ Item 1 - now item-4 */}
+                <AccordionItem value="item-4" className="border-slate-800">
                   <AccordionTrigger className="text-slate-200 hover:text-purple-400">
                     How does the position sizing calculator work?
                   </AccordionTrigger>
@@ -581,7 +607,8 @@ export default function LandingPage() {
                     to calculate the exact position size that keeps your risk within your predetermined limits.
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-2" className="border-slate-800">
+                {/* Existing FAQ Item 2 - now item-5 */}
+                <AccordionItem value="item-5" className="border-slate-800">
                   <AccordionTrigger className="text-slate-200 hover:text-purple-400">
                     Can I customize my risk parameters?
                   </AccordionTrigger>
@@ -590,7 +617,8 @@ export default function LandingPage() {
                     risk-reward ratios. All parameters can be adjusted to match your trading strategy.
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-3" className="border-slate-800">
+                {/* Existing FAQ Item 3 - now item-6 */}
+                <AccordionItem value="item-6" className="border-slate-800">
                   <AccordionTrigger className="text-slate-200 hover:text-purple-400">
                     Does it work with any broker?
                   </AccordionTrigger>
@@ -599,12 +627,13 @@ export default function LandingPage() {
                     currently support major brokers like Interactive Brokers, TradeStation, and more.
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-4" className="border-slate-800">
+                {/* Existing FAQ Item 4 - now item-7 */}
+                <AccordionItem value="item-7" className="border-slate-800">
                   <AccordionTrigger className="text-slate-200 hover:text-purple-400">
                     Do you offer a free trial?
                   </AccordionTrigger>
                   <AccordionContent className="text-slate-400">
-                    We don&apos;t offer a free trial, but at just $2.97 per month (less than a coffee!), our tool is
+                    We don't offer a free trial, but at just $2.97 per month (less than a coffee!), our tool is
                     incredibly affordable. You can cancel anytime, and the potential savings are enormous - one
                     prevented mistake can save you hundreds or thousands of dollars in trading losses. Plus, we offer a
                     free version for EURUSD so you can experience the core functionality before upgrading.
