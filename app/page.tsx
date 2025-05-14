@@ -532,7 +532,7 @@ export default function LandingPage() {
                 Testimonials
               </div>
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">
-                What Our Users Are Saying
+                What Our Traders Are Saying
               </h2>
             </div>
 
