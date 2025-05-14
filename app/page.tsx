@@ -147,7 +147,7 @@ export default function LandingPage() {
           <div className="flex gap-2 items-center text-xl font-bold">
             <TrendingUp className="h-6 w-6 text-purple-500" />
             <span className="bg-gradient-to-r from-purple-400 to-indigo-500 bg-clip-text text-transparent">
-              Trading Lots Calculator
+              Trade Lots Calculator
             </span>
           </div>
           <div className="flex flex-1 items-center justify-end space-x-4">
@@ -668,4 +668,3 @@ export default function LandingPage() {
     </div>
   )
 }
-
