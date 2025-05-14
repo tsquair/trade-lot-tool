@@ -1,3 +1,4 @@
+
 "use client"
 
 import { useState, useEffect } from "react"
@@ -203,9 +204,11 @@ export default function LandingPage() {
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Button size="lg" className="bg-indigo-600 hover:bg-indigo-700 text-white">
-                    <Download className="mr-2 h-4 w-4" /> Install Extension
-                  </Button>
+                  <Link href="https://chromewebstore.google.com/detail/trade-lot-tool/nhliadcekakcdldjbmjmdnfchahnekhj" target="_blank" rel="noopener noreferrer" asChild>
+                    <Button size="lg" className="bg-indigo-600 hover:bg-indigo-700 text-white">
+                      <Download className="mr-2 h-4 w-4" /> Install Extension
+                    </Button>
+                  </Link>
                   <Dialog>
                     <DialogTrigger asChild>
                       <Button
@@ -476,9 +479,11 @@ export default function LandingPage() {
                     <span className="text-slate-500"><s>Advanced risk management</s></span>
                   </li>
                 </ul>
-                <Button variant="outline" className="mt-8 w-full border-purple-800 text-purple-400 hover:bg-purple-950/50">
-                  Use for Free
-                </Button>
+                <Link href="https://chromewebstore.google.com/detail/trade-lot-tool/nhliadcekakcdldjbmjmdnfchahnekhj" target="_blank" rel="noopener noreferrer" asChild>
+                  <Button variant="outline" className="mt-8 w-full border-purple-800 text-purple-400 hover:bg-purple-950/50">
+                    Use for Free
+                  </Button>
+                </Link>
               </div>
               <div className="rounded-lg border-2 border-purple-600 bg-slate-900 p-6 shadow-xl relative">
                 <div className="absolute top-0 right-0 -mt-3 mr-3">
@@ -512,7 +517,9 @@ export default function LandingPage() {
                     <span className="text-slate-300">Priority support</span>
                   </li>
                 </ul>
-                <Button className="mt-8 w-full bg-indigo-600 hover:bg-indigo-700 text-white">Get Full Access</Button>
+                <Link href="https://chromewebstore.google.com/detail/trade-lot-tool/nhliadcekakcdldjbmjmdnfchahnekhj" target="_blank" rel="noopener noreferrer" asChild>
+                  <Button className="mt-8 w-full bg-indigo-600 hover:bg-indigo-700 text-white">Get Full Access</Button>
+                </Link>
               </div>
             </div>
           </div>
