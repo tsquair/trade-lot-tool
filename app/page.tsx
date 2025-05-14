@@ -175,7 +175,6 @@ export default function LandingPage() {
               </Link>
             </nav>
         <a
-  <a
   href="https://chromewebstore.google.com/detail/trade-lot-tool/nhliadcekakcdldjbmjmdnfchahnekhj?authuser=0&hl=en-GB"
   target="_blank"
   rel="noopener noreferrer"
