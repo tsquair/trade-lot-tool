@@ -179,7 +179,6 @@ export default function LandingPage() {
   target="_blank"
   rel="noopener noreferrer"
   className="inline-flex items-center rounded-full bg-purple-600 px-6 py-3 text-sm font-semibold text-white hover:bg-purple-700 transition-colors"
-              <
   Download Extension
 </a>
          </div>
