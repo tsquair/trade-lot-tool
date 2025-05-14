@@ -40,13 +40,13 @@ export default function LandingPage() {
       name: "Elena R.",
       role: "Experienced Day Trader",
       text: "Risk management is everything, and this tool lets me execute position sizing directly inside TradingView without switching tabs. It\'s simple but powerful.",
-      stars: 4,
+      stars: 5,
     },
     {
       name: "Kevin B.",
       role: "Intermediate Trader",
       text: "Honestly, I didn’t realize how often I was risking more than 2% until I started using this. Now I feel more in control of my trades.",
-      stars: 5,
+      stars: 4,
     },
     {
       name: "Fatima D.",
@@ -64,13 +64,13 @@ export default function LandingPage() {
       name: "Diego M.",
       role: "Swing Trader",
       text: "I used to rely on mobile apps or calculators. Now I just draw on the chart and the tool does the rest. Super smooth workflow!",
-      stars: 5,
+      stars: 4,
     },
     {
       name: "Nina K.",
       role: "Beginner, Demo Account",
       text: "I\'m still on demo, but this tool has helped me build better habits. I now plan every trade with risk in mind, not just targets.",
-      stars: 4,
+      stars: 5,
     },
     {
       name: "Jason L.",
@@ -88,7 +88,7 @@ export default function LandingPage() {
       name: "Marc W.",
       role: "Crypto Trader",
       text: "Trading volatile markets like crypto requires tight risk control. This extension keeps me accountable to my risk rules every single trade.",
-      stars: 5,
+      stars: 4,
     },
   ];
 
@@ -183,6 +183,7 @@ export default function LandingPage() {
   Download Extension
 </a>
          </div>
+        </div>
       </header>
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-slate-950 to-slate-900">
