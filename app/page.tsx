@@ -175,12 +175,14 @@ export default function LandingPage() {
               </Link>
             </nav>
         <a
-  href="https://chromewebstore.google.com/detail/trade-lot-tool/nhliadcekakcdldjbmjmdnfchahnekhj?authuser=0&hl=en-GB"
+  href="https://chromewebstore.google.com/detail/trade-lot-tool/nhliadcekakcdldjbmjmdnfchahnekhj"
   target="_blank"
   rel="noopener noreferrer"
   className="inline-flex items-center rounded-full bg-purple-600 px-6 py-3 text-sm font-semibold text-white hover:bg-purple-700 transition-colors"
+>
   Download Extension
 </a>
+         </div>
       </header>
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-slate-950 to-slate-900">
