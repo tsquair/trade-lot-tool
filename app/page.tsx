@@ -179,7 +179,7 @@ export default function LandingPage() {
   href="https://chromewebstore.google.com/detail/trade-lot-tool/nhliadcekakcdldjbmjmdnfchahnekhj"
   target="_blank"
   rel="noopener noreferrer"
-  className="inline-flex items-center rounded-full bg-purple-600 px-6 py-3 text-sm font-semibold text-white hover:bg-purple-700 transition-colors"
+  className="inline-flex items-center rounded-full bg-indigo-600 px-6 py-3 text-sm font-semibold text-white hover:bg-indigo-700 transition-colors"
 >
   Download Extension
 </a>
@@ -213,8 +213,7 @@ export default function LandingPage() {
                     <DialogTrigger asChild>
                       <Button
                         size="lg"
-                        variant="outline"
-                        className="gap-1 border-purple-800 text-purple-400 hover:bg-purple-950/50"
+                        className="gap-1 bg-indigo-600 hover:bg-indigo-700 text-white"
                       >
                         <Play className="h-4 w-4" /> Watch Demo
                       </Button>
@@ -480,7 +479,7 @@ export default function LandingPage() {
                   </li>
                 </ul>
                 <Link href="https://chromewebstore.google.com/detail/trade-lot-tool/nhliadcekakcdldjbmjmdnfchahnekhj" target="_blank" rel="noopener noreferrer" asChild>
-                  <Button variant="outline" className="mt-8 w-full border-purple-800 text-purple-400 hover:bg-purple-950/50">
+                  <Button size="lg" className="mt-8 w-full bg-indigo-600 hover:bg-indigo-700 text-white">
                     Use for Free
                   </Button>
                 </Link>
@@ -518,7 +517,7 @@ export default function LandingPage() {
                   </li>
                 </ul>
                 <Link href="https://chromewebstore.google.com/detail/trade-lot-tool/nhliadcekakcdldjbmjmdnfchahnekhj" target="_blank" rel="noopener noreferrer" asChild>
-                  <Button className="mt-8 w-full bg-indigo-600 hover:bg-indigo-700 text-white">Get Full Access</Button>
+                  <Button size="lg" className="mt-8 w-full bg-indigo-600 hover:bg-indigo-700 text-white">Get Full Access</Button>
                 </Link>
               </div>
             </div>
