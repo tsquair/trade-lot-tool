@@ -52,7 +52,7 @@ export default function LandingPage() {
       name: "Fatima D.",
       role: "Forex Newbie",
       text: "This tool helped me understand the relationship between stop loss, account size, and lot size. I’m still learning, but it makes everything easier to apply in real time.",
-      stars: 4.5,
+      stars: 5,
     },
     {
       name: "Alex S.",
@@ -70,7 +70,7 @@ export default function LandingPage() {
       name: "Nina K.",
       role: "Beginner, Demo Account",
       text: "I\'m still on demo, but this tool has helped me build better habits. I now plan every trade with risk in mind, not just targets.",
-      stars: 4.5,
+      stars: 4,
     },
     {
       name: "Jason L.",
