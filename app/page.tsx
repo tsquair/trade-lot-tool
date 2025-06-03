@@ -463,7 +463,7 @@ export default function LandingPage() {
                 <ul className="mt-6 space-y-2 text-sm">
                   <li className="flex items-center">
                     <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">EUR pairs only</span>
+                    <span className="text-slate-300">EUR pairs</span>
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
