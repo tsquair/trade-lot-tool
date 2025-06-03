@@ -454,7 +454,7 @@ export default function LandingPage() {
             <div className="mx-auto grid max-w-sm gap-8 lg:max-w-4xl lg:grid-cols-2">
               <div className="rounded-lg border border-slate-800 bg-slate-900 p-6 shadow-xl">
                 <h3 className="text-2xl font-bold text-slate-300">Free</h3>
-                <p className="mt-1 text-sm text-slate-400">For EURUSD only</p>
+                <p className="mt-1 text-sm text-slate-400">For all EUR pairs</p>
                 <div className="mt-4 flex items-baseline text-3xl font-bold text-slate-200">
                   $0
                   <span className="ml-1 text-sm font-medium text-slate-400">/month</span>
@@ -463,7 +463,7 @@ export default function LandingPage() {
                 <ul className="mt-6 space-y-2 text-sm">
                   <li className="flex items-center">
                     <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
-                    <span className="text-slate-300">EURUSD instrument only</span>
+                    <span className="text-slate-300">EUR pairs only</span>
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="mr-2 h-4 w-4 text-purple-500" />
@@ -603,7 +603,7 @@ export default function LandingPage() {
                     Is there a free version?
                   </AccordionTrigger>
                   <AccordionContent className="text-slate-400">
-                    Yes! The Trade Lot Tool is free to use on EURUSD. A subscription unlocks all other symbols and it is cheaper than a coffee.
+                    Yes! The Trade Lot Tool is free to use on EUR pairs. A subscription unlocks all other symbols and it is cheaper than a coffee.
                   </AccordionContent>
                 </AccordionItem>
                 {/* Existing FAQ Item 1 - now item-4 */}
@@ -645,7 +645,7 @@ export default function LandingPage() {
                     We don't offer a free trial, but at just $2.97 per month (less than a coffee!), our tool is
                     incredibly affordable. You can cancel anytime, and the potential savings are enormous - one
                     prevented mistake can save you hundreds or thousands of dollars in trading losses. Plus, we offer a
-                    free version for EURUSD so you can experience the core functionality before upgrading.
+                    free version for all EUR pairs so you can experience the core functionality before upgrading.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
